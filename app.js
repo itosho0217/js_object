@@ -160,24 +160,20 @@ printMaxNum(2,2);
 // 処理内容：引数で受け取った数値の2乗を計算し返す
 
 function getSquared(num){
-  return (num * num)
+  console.log(num * num);
 }
-let get = getSquared(2);
-console.log(get);
-getSquared(3);
 
+getSquared(8);
 
 // 【58】
 // 関数名：createSelfIntroductionText
 // 引数1：1つの文字列
 // 処理内容：「私の名前は○○です」という文字の〇〇を引数で受け取った文字列にし返す
-// function createSelfIntroductionText(num){
-//   let msg ＝'私の名前は' + num +'です'
-//   console.log(msg);
-// }
-// var message = createSelfIntroductionText("〇〇");
-// console.log(message);
-// createSelfIntroductionText();
+function createSelfIntroductionText(num){
+  console.log('私の名前は' + num +'です')
+}
+
+createSelfIntroductionText('テスト君');
 
 // 【59】
 // 関数名：isEvenNumber
@@ -197,10 +193,14 @@ isEvenNumber();
 // 引数1：任意の文字列
 // 処理内容：引数で渡された文字列が「SeedKun」の場合は true、そうでない場合は false を返す。
 
-function isSeedkun(num){
-  if( i === Seedkun){
-    console.log('true');
-  } else {
-    console.log('false');
-  }
-  isSeedkun(i);
+// function isSeedkun(num){
+//   if( i === Seedkun){
+//     console.log('true');
+//   } else {
+//     console.log('false');
+//   }
+// }
+
+// let i = isSeedkun(num);
+//   console.log(i);
+//   isSeedkun(num);
